@@ -1,16 +1,14 @@
-# Networking in Azure (Lab 01)
+# Notes: Managing Microsoft Entra ID Identities
 
-## 🌐 What is a Virtual Network (VNet)?
-A Virtual Network (VNet) allows Azure resources to securely communicate with each other.
+## 🌍 What is Microsoft Entra ID?
+Microsoft Entra ID (formerly Azure AD) is Azure's **identity and access management (IAM) solution**.
 
-## 🏗️ Steps in This Lab:
-1. **Create a VNet**
-2. **Define Address Spaces**
-3. **Add Subnets**
-4. **Configure an NSG**
-5. **Test connectivity**
+## 🏗️ Lab Steps:
+1️⃣ **Created new user accounts**  
+2️⃣ **Invited external users to the tenant**  
+3️⃣ **Created a security group and assigned members**  
 
-## 🔥 Key Learnings:
-- VNets in Azure are **isolated networks** for cloud resources.
-- **Subnets** help segment resources within a VNet.
-- **Network Security Groups (NSG)** allow/restrict network access.
+## 💡 Key Learnings:
+- Users can be **internal (company employees)** or **external (guests)**.
+- Groups help in **managing permissions easily**.
+- **Dynamic groups** auto-update based on user properties.
