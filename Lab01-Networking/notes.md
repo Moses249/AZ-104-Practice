@@ -1,1 +1,16 @@
-Your organization is building a new lab environment for pre-production testing of apps and services. A few engineers are being hired to manage the lab environment, including the virtual machines. To allow the engineers to authenticate by using Microsoft Entra ID, you have been tasked with provisioning users and groups. To minimize administrative overhead, membership of the groups should be updated automatically based on job titles.
+# Networking in Azure (Lab 01)
+
+## 🌐 What is a Virtual Network (VNet)?
+A Virtual Network (VNet) allows Azure resources to securely communicate with each other.
+
+## 🏗️ Steps in This Lab:
+1. **Create a VNet**
+2. **Define Address Spaces**
+3. **Add Subnets**
+4. **Configure an NSG**
+5. **Test connectivity**
+
+## 🔥 Key Learnings:
+- VNets in Azure are **isolated networks** for cloud resources.
+- **Subnets** help segment resources within a VNet.
+- **Network Security Groups (NSG)** allow/restrict network access.
